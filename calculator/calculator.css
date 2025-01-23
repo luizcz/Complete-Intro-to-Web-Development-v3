@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button:last-child{
+    background-color: orange;
+}
+
+.calc{
+    width: 400px;
+    background-color: black;
+}
+
+.calc-button{
+    width: 25%;
+    background-color: #d8d9db;
+    height: 100px;
+    border: 1px solid darkgrey;
+    border-radius: 0;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.double{
+    width: 50%;
+}
+
+.triple{
+    width: 75%;
+}
+
+.result{
+    color: white;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
